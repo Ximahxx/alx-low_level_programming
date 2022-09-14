@@ -1,15 +1,15 @@
-#include<stdio.h>
+#include "main.h"
 
-int main(void)
-{
-		char *sh = "_putchar";
+int main(void){
+	_putchar('_');
+	_purchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-			while (*sh)
-					{
-								_putchar(*sh);
-										sh++;
-											}
-				_putchar('\n');
-
-					return (0);
+	return 0;
 }
