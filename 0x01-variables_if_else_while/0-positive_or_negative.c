@@ -3,7 +3,7 @@
 #include <stdio.h>
 /*
  * main - entry point
- * Description - prints if random generated number is positive, zero or negative
+ * Description - prints if random number is positive, zero or negative
  * Return: always return 0
  *
  */
