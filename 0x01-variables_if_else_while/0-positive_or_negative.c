@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - entry point
- * 
+ * main - Entry point
+ *
  * Description: prints if random generated number is +tive, zero or negative
- * 
+ *
  * Return: always return 0
  */
 int main(void)
