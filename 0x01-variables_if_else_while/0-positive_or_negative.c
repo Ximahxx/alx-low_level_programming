@@ -2,9 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - prints if random number is positive, zero or negative
+ * main - entry point
+ * 
+ * Description: prints if random generated number is +tive, zero or negative
+ * 
  * Return: always return 0
- *
  */
 int main(void)
 {
