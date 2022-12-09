@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - Entry point
+ * Main - Entry point
  *
- * Description: prints if random generated number is +tive, zero or negative
+ * Description: indicates if random generated no. is +tive, zero or -tive
  *
- * Return: always return 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
