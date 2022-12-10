@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * Main - entry point
+ * main - entry point
  *
  * Description: indicates if random generated no. is +tive, zero or -tive
  *
