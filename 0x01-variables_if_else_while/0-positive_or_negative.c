@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * Main - Entry point
  *
  * Description: indicates if random generated no. is +tive, zero or -tive
