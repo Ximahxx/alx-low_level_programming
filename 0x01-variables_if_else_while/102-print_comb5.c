@@ -1,32 +1,30 @@
 #include <stdio.h>
+
 /**
- * main - entry point
+ * main - create 2 pairs of number
  *
  * Return: 0
  */
 
 int main(void)
 {
-	int i, j, k, l;
+	int i, j;
 
-	for (k = 0; k < 10; k++)
+	for (i = 0; i <= 99; i++)
 	{
-		for (l = 0; l < 10; l++)
+		for (j = i; j <= 99; j++)
 		{
-			for (i = 0; i <= k; i++)
+			if (j != i)
 			{
-				for (j = 0; j < l; j++)
+				putchar(i / 10 + 48);
+				putchar(i % 10 + 48);
+				putchar(' ');
+				putchar(j / 10 + 48);
+				putchar(j % 10 + 48);
+				if (i * 100 + j != 9899)
 				{
-					if (l != j && k != i)
-					{
-						putchar(i + '0');
-						putchar(j + '0');
-						putchar(' ');
-						putchar(k + '0');
-						putchar(l + '0');
-							putchar(',');
-							putchar(' ');
-					}
+					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
