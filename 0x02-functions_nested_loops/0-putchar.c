@@ -1,15 +1,19 @@
 #include "main.h"
+/**
+ * main - entry point
+ *
+ * Return: 0
+ */
 
 int main(void){
-	_putchar('_');
-	_purchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char strng[] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(strng[i]);
+	}
 	_putchar('\n');
 
-	return 0;
+	return (0);
 }
