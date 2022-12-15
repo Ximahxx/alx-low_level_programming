@@ -2,6 +2,8 @@
 /**
  * print_sign - prints sign of number
  *
+ * @n: number being tested
+ *
  * Return: 1 if +tive, 0 if zero, -1 if -tive
  */
 

@@ -3,6 +3,8 @@
 /**
  * _isalpha - checks if argument is letter or not
  *
+ * @c: letter being tested
+ *
  * Return: 1 if it is a letter 0 if otherwise
  */
 
