@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * reset_to_98 -  takes pointer to int as parameter and updates the value to 98
- * @*n: The number to be checked
+ * @n: The number to be checked
  *
  * Return: void
  */
